@@ -1,0 +1,23 @@
+
+:root { --accent: #00B53F; --text: #1a1a1a; --muted: #667; --bg: #fafafa; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background: var(--bg); color: var(--text); }
+.site-header { padding: 16px 24px; background: white; border-bottom: 1px solid #eee; }
+.site-header .logo { font-weight: 700; font-size: 1.2rem; color: var(--accent); text-decoration: none; }
+main { max-width: 900px; margin: 0 auto; padding: 24px; }
+h1 { font-size: 1.6rem; }
+.subtitle { color: var(--muted); margin-top: -8px; }
+.town-section { margin-top: 32px; }
+.listing-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin-top: 12px; }
+.listing-card { display: block; background: white; border: 1px solid #eee; border-radius: 10px; padding: 16px; text-decoration: none; color: var(--text); transition: box-shadow .15s; }
+.listing-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+.listing-card h3 { margin: 0 0 8px 0; font-size: 1rem; }
+.price { color: var(--accent); font-weight: 700; }
+.insight { font-size: 0.85rem; color: var(--muted); }
+.location { color: var(--muted); }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.75rem; font-weight: 600; }
+.badge-direct { background: #e6f9ec; color: #00733a; }
+.badge-agent { background: #eef2f7; color: #46586b; }
+.cta-box { margin-top: 24px; padding: 20px; background: white; border: 1px solid #eee; border-radius: 10px; }
+.cta-button { display: inline-block; margin-top: 8px; padding: 12px 20px; background: var(--accent); color: white; border-radius: 8px; text-decoration: none; font-weight: 600; }
+.site-footer { max-width: 900px; margin: 32px auto; padding: 0 24px 24px; color: var(--muted); font-size: 0.85rem; }
